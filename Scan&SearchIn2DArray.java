@@ -14,13 +14,17 @@ public class ScanAndSearchIn2DArray {
         }
         System.out.print("Enter the number you want to search: ");
         int n = sc.nextInt();
+        int count = 1;
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 if (arr[i][j] == n) {
-                    System.out.println("[" + i + "," + j + "]");
+                    System.out.println("Your searched number is in [" + i + "," + j + "] index.");
+                    count = 0;
                 }
             }
         }
+        if (count > 0)
+            System.out.println("Sorry! Your searched number is absent in the database.");
         sc.close();
     }
 }
