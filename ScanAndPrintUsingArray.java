@@ -5,7 +5,7 @@ public class ScanAndPrintUsingArray {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter how many numbers you want to add in your array: ");
         int n = sc.nextInt();
-        int[] arr = new int[5];
+        int arr[] = new int[5];
         System.out.println("Enter array values: ");
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
