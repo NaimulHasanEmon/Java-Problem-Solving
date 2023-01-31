@@ -16,6 +16,8 @@ public class BubbleSorting2 {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        
+        // Time complexity = O(n^2)
         // bubble sort
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - 1 - i; j++) {
