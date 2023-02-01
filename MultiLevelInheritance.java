@@ -9,7 +9,7 @@ class Triangle extends Shape {
 }
 
 class EquilateralTriangle extends Triangle {
-    // Triangle class takes all properties of Shape class
+    // EquilateralTriangle class takes all properties of Triangle class
     public void printTheArea() {
         System.out.println(0.5 * base * height);
     }
