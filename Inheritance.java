@@ -3,6 +3,7 @@ class Shape {
 }
 
 class Triangle extends Shape {
+    // Triangle class takes all properties of Shape class
     public void printColor() {
         System.out.println(color);
     }
