@@ -1,3 +1,4 @@
+// Base class or Parent class
 class Shape {
     int base, height;
 
@@ -6,6 +7,7 @@ class Shape {
     }
 }
 
+// Sub class or Child class
 class Triangle extends Shape {
     // Triangle class takes all properties of Shape class
     public void printColor() {
