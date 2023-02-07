@@ -1,7 +1,9 @@
+// Base class or Parent class
 class Shape {
     String color;
 }
 
+// Sub class or Child class
 class Triangle extends Shape {
     // Triangle class takes all properties of Shape class
     public void printColor() {
