@@ -32,5 +32,22 @@ public class AllTypesOfArrayLists {
         // Sorting
         Collections.sort(list);
         System.out.println(list);
+        
+        // Compare if two arry list are same or note
+        ArrayList<Integer> list2 = new ArrayList<>();
+        list2.add(1);
+        list2.add(2);
+        list2.add(3);
+        
+        ArrayList<Integer> list3 = new ArrayList<>();
+        list3.add(1);
+        list3.add(2);
+        list3.add(3);
+        System.out.println(list2.equals(list3));
+
+        // Copy
+        ArrayList<Integer> list4 = new ArrayList<>();
+        list4.addAll(list2);
+        System.out.println(list4);
     }
 }
