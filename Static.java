@@ -7,9 +7,9 @@ class Student {
 
 public class Static {
     public static void main(String[] args) {
+        Student.school = "BCBHC"; // Input using class name
         Student stu = new Student();
         stu.name = "Emon"; // Input using object name
-        Student.school = "BCBHC"; // Input using class name
         System.out.println(stu.name);
         System.out.println(Student.school);
     }
