@@ -1,14 +1,17 @@
 package ApnaCollege;
 
+// Parent 1
 interface Animal {
     void Walk();
 }
 
+// Parent 2
 interface Herbivore {
 
     void eat();
 }
 
+// Multiple parent for single chil
 class Horse implements Animal, Herbivore {
     public void Walk() {
         System.out.println("Walks on 4 legs.");
