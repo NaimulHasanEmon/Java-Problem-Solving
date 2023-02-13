@@ -1,8 +1,9 @@
+// Static is for something that is common for all
 package ApnaCollege;
 
 class Student {
     String name;
-    static String school;
+    static String school; // Here the school name is same for all
 }
 
 public class Static {
