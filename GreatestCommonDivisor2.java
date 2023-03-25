@@ -13,4 +13,4 @@ public class GreatestCommonDivisor2 {
         System.out.println(m);
         sc.close();
     }
-};
+}
