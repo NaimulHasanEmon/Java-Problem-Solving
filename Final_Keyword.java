@@ -1,12 +1,25 @@
 class Person {
-    final String name = "Emon";
-    int age = 10;
+    String Gender; // normal variable
+    final String name = "Emon"; // final variable
+    final int age; // Blank final variable
+    static final int id; // static blank final variable
+
+    // static blank final variable must be accessed by calling with static method
+    static {
+        id = 5601;
+    }
+
+    // blank final variable must be accessed by calling with constructor
+    Person() {
+        age = 22;
+    }
 
     void display() {
-        // we can not use "name = "Naimul"" because it was declired as final type.
-        age = 22;
+        Gender = "Male"; // normal variable can be accessed easily by this
+        System.out.println(Gender);
         System.out.println(name);
         System.out.println(age);
+        System.out.println(id);
     }
 }
 
