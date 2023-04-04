@@ -4,7 +4,7 @@ class Person {
     final int age; // Blank final variable
     static final int id; // static blank final variable
 
-    // static blank final variable must be accessed by calling with static method
+    // static blank final variable must be accessed by calling with static block
     static {
         id = 5601;
     }
