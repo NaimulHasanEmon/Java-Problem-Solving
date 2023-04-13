@@ -7,7 +7,7 @@ public class ArrayListPrintUsingIterator {
         num.add(11);
         num.add(12);
         num.add(3, 20);
-        Iterator itr = num.iterator();
+        Iterator<Integer> itr = num.iterator();
         while (itr.hasNext()) {
             System.out.println(itr.next() + " ");
         }
