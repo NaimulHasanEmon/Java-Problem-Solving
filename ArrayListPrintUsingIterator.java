@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ArrayListPrintUsingIterator {
+public class Main {
     public static void main(String[] args) {
         ArrayList<Integer> num = new ArrayList<>();
         num.add(10);
