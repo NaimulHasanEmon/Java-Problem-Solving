@@ -4,14 +4,15 @@ class Shape {
 
 class Triangle extends Shape {
     public void printArea() {
-        System.out.print("The area is: ");
+        System.out.println("The area of triangle is: " + (0.5 * base * height));
     }
 }
 
 class EquilateralTriangle extends Triangle {
     // EquilateralTriangle class takes all properties of Triangle class
     public void printTheArea() {
-        System.out.println(0.5 * base * height);
+        System.out.println(
+                "The area of equilateral  triangle is: " + String.format("%.2f", (Math.sqrt(3)) / 4 * base * base));
     }
 }
 
