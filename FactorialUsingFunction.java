@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class factorialUsingFunction {
+public class FactorialUsingFunction {
     public static void printFactorial(int number) {
         if (number >= 0) {
             int multiple = 1;
