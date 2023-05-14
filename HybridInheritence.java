@@ -21,7 +21,7 @@ class equilateralTriangle extends Triangle {
     }
 }
 
-public class hybridInheritence {
+public class HybridInheritence {
     public static void main(String[] args) {
         Circle c = new Circle();
         c.color = "Yello";
