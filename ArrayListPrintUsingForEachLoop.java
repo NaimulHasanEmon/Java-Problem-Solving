@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ArrayListPrintUsingForEachLoop {
+public class Main {
     public static void main(String[] args) {
         ArrayList<Integer> num = new ArrayList<>();
         System.out.println(num.size());
