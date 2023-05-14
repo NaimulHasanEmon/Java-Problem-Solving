@@ -1,24 +1,25 @@
-package ApnaCollege;
-
 interface Animal {
-    void Walk();
+    void walk();
+
     void eat();
 }
 
 class Horse implements Animal {
-    public void Walk() {
+    @Override
+    public void walk() {
         System.out.println("Walks on 4 legs.");
     }
 
+    @Override
     public void eat() {
-        System.out.println("They eat.");
+        System.out.println("They eats.");
     }
 }
 
-public class Interfaces {
+public class Main {
     public static void main(String[] args) {
-        Horse horse = new Horse();
-        horse.Walk();
-        horse.eat();
+        Horse h = new Horse();
+        h.walk();
+        h.eat();
     }
 }
