@@ -1,31 +1,27 @@
-package ApnaCollege;
-
-// Parent 1
 interface Animal {
-    void Walk();
+    void walk();
 }
 
-// Parent 2
 interface Herbivore {
-
     void eat();
 }
 
-// Multiple parent for single chil
 class Horse implements Animal, Herbivore {
-    public void Walk() {
+    @Override
+    public void walk() {
         System.out.println("Walks on 4 legs.");
     }
 
+    @Override
     public void eat() {
-        System.out.println("They eat.");
+        System.out.println("Eat plants.");
     }
 }
 
-public class Interfaces {
+public class Main {
     public static void main(String[] args) {
-        Horse horse = new Horse();
-        horse.Walk();
-        horse.eat();
+        Horse h = new Horse();
+        h.walk();
+        h.eat();
     }
 }
