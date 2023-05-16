@@ -23,7 +23,7 @@ class Person {
     }
 }
 
-public class Final_Keyword {
+public class Main {
     public static void main(String[] args) {
         Person p = new Person();
         p.display();
