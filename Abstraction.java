@@ -1,5 +1,3 @@
-package ApnaCollege;
-
 abstract class Animal {
     abstract void Walk();
 }
