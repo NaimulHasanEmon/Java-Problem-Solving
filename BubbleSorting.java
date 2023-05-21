@@ -1,4 +1,4 @@
-public class BubbleSorting {
+public class Main {
     public static void printArray(int num[]) {
         for (int i = 0; i < num.length; i++) {
             System.out.print(num[i] + " ");
