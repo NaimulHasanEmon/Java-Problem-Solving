@@ -27,7 +27,7 @@ class Car extends Vehicle {
     }
 }
 
-public class Super_keyword {
+public class Main {
 
     public static void main(String[] args) {
         Car tesla = new Car("Red", 1000, 50);
