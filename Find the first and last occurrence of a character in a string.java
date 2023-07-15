@@ -17,12 +17,12 @@ public class Main {
             }
         }
         // one way
-        System.out.println("First occurrence of" + chck + " is in index = " + intArray.get(0));
-        System.out.println("Last occurrence of" + chck + " is in index = " + intArray.get(intArray.size() - 1));
+        System.out.println("First occurrence of " + chck + " is in index = " + intArray.get(0));
+        System.out.println("Last occurrence of " + chck + " is in index = " + intArray.get(intArray.size() - 1));
         System.out.println(intArray);
         // another way
-        System.out.println("First occurrence of" + chck + " is in index = " + Collections.min(intArray));
-        System.out.println("Last occurrence of" + chck + " is in index = " + Collections.max(intArray));
+        System.out.println("First occurrence of " + chck + " is in index = " + Collections.min(intArray));
+        System.out.println("Last occurrence of " + chck + " is in index = " + Collections.max(intArray));
         sc.close();
     }
 }
