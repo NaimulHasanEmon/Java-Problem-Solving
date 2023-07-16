@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Demo {
+public class Main {
     public static void moveAllChar(String str, char ch, int i, int count, String newString) {
         if (i == str.length()) {
             for (int j = 0; j < count; j++) {
