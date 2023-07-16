@@ -6,10 +6,20 @@ public class Main {
         if (i == arr.size() - 1) {
             return true;
         }
-        if (arr.get(i) < arr.get(i+1)) {
+        if (arr.get(i) < arr.get(i + 1)) {
             return check(arr, i + 1);
         } else
             return false;
+
+        //another way
+
+        /*
+        if (arr.get(i) >= arr.get(i+1)) {
+            return false;
+        } else
+            return check(arr, i + 1);
+        */
+
     }
 
     public static void main(String[] args) {
