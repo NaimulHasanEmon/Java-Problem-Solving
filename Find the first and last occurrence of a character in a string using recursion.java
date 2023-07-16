@@ -3,17 +3,23 @@ import java.util.Scanner;
 public class Main {
     public static int first = -1;
     public static int last = -1;
+    public static int count = 0;
 
     public static void printOccurrence(int i, String str, char check) {
         if (i == str.length()) {
-            System.out.println("First occurrence of " + check + " is at index = " + first);
-            if (last != -1) {
-                System.out.println("Last occurrence of " + check + " is at index = " + last);
-            } else
-                System.out.println("Last occurrence of " + check + " is at index = " + first);
+            if (count == 0) {
+                System.out.println("The character " + check + " is not present in the string.");
+            } else {
+                System.out.println("First occurrence of " + check + " is at index = " + first);
+                if (last != -1) {
+                    System.out.println("Last occurrence of " + check + " is at index = " + last);
+                } else
+                    System.out.println("Last occurrence of " + check + " is at index = " + first);
+            }
             return;
         }
         if (str.charAt(i) == check) {
+            count++;
             if (first == -1) {
                 first = i;
             } else {
