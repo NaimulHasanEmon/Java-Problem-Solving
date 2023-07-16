@@ -20,7 +20,6 @@ public class Main {
         }
         StringBuilder sb1 = new StringBuilder();
         StringBuilder sb2 = new StringBuilder();
-        StringBuilder res = new StringBuilder();
         for (char p : ar1) {
             sb1.append(p);
         }
