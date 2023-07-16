@@ -10,7 +10,7 @@ public class Main {
         char[] x = y.toCharArray();
         ArrayList<Character> ar1 = new ArrayList<>();
         ArrayList<Character> ar2 = new ArrayList<>();
-        System.out.print("Which character you want to step aside = ");
+        System.out.print("Which character you want to move to the end = ");
         char ch = sc.next().charAt(0);
         for (int i = 0; i < y.length(); i++) {
             if (x[i] == ch)
@@ -26,7 +26,7 @@ public class Main {
         for (char q : ar2) {
             sb2.append(q);
         }
-        System.out.println("After moving all " + ch + " new string is = " + sb1.append(sb2));
+        System.out.println("After moving all " + ch + ", the new string is = " + sb1.append(sb2));
         sc.close();
     }
 }
