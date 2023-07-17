@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Demo {
+public class Main {
     public static void delRepeat(String str, int i, StringBuilder sb) {
         if (i == str.length()) {
             System.out.println("After remove repetitions = " + sb);
