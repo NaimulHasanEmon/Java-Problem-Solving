@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
+    public static int count = 0;
     public static void printPermutation(String str, String permutation, int index) {
         if (str.length() == 0) {
             System.out.println(permutation);
@@ -19,6 +20,7 @@ public class Main {
         String str = sc.next();
         System.out.println("Permutations of " + str + " are: ");
         printPermutation(str, "", 0);
+        System.out.println("Total permutations = " + count);
         sc.close();
     }
 }
