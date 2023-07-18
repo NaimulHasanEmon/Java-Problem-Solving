@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void printPermutation(String str, String permutation, int index) {
         if (str.length() == 0) {
@@ -12,7 +14,11 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String str = "ABC";
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String str = sc.next();
+        System.out.println("Permutations of " + str + " are: ");
         printPermutation(str, "", 0);
+        sc.close();
     }
 }
