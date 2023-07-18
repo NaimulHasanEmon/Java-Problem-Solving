@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter String: ");
+        System.out.print("Enter a String: ");
         String str = sc.next();
         subsequences(str, 0, "");
         sc.close();
