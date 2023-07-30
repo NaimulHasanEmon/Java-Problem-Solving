@@ -11,11 +11,11 @@ public class Main {
         n.add(8);
         n.add(4);
         n.add(0);
-        System.out.println(n);
+        System.out.println("Original array: " + n);
         Collections.sort(n);
-        System.out.println(n);
+        System.out.println("Ascending order sorted array: " + n);
         Collections.reverse(n);
-        System.out.println(n);
+        System.out.println("Descending order sorted array: " + n);
         sc.close();
     }
 }
