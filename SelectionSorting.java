@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class SelectionSorting {
+public class Main {
     public static void printArray(int arr[]) {
         System.out.print("Sorted array is: ");
         for (int i = 0; i < arr.length; i++) {
