@@ -1,4 +1,4 @@
-public class LL {
+public class Main {
     Node head;
 
     class Node {
