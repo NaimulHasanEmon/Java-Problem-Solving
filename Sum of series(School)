@@ -1,0 +1,15 @@
+
+
+// User function Template for Java
+
+class Solution {
+    int sum;
+    // function to return sum of  1, 2, ... n
+    long seriesSum(int n) {
+        // code here
+        
+        long range = n;
+       long ans =   (range*(range+1))/2;
+       return ans;
+    }
+}
