@@ -1,15 +1,24 @@
-
-
-// User function Template for Java
-
 class Solution {
-    int sum;
     // function to return sum of  1, 2, ... n
     long seriesSum(int n) {
-        // code here
-        
-        long range = n;
-       long ans =   (range*(range+1))/2;
-       return ans;
+        // Calculate the sum of the series using the formula for the sum of an arithmetic series
+        long sum = (long) n * (n + 1) / 2;
+        return sum;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        int n1 = 1;
+        long result1 = solution.seriesSum(n1);
+        System.out.println("Output for n = " + n1 + ": " + result1); // Output: 1
+
+        int n2 = 5;
+        long result2 = solution.seriesSum(n2);
+        System.out.println("Output for n = " + n2 + ": " + result2); // Output: 15
+
+        // Replace 'n' with your desired value of n to get the sum of the series.
     }
 }
