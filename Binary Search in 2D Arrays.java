@@ -7,6 +7,9 @@ class LL {
         System.out.print("Enter target number: ");
         int n = sc.nextInt();
         int row = 0, col = arr.length - 1;
+        
+        // Time complexity is O(n)
+        
         while (row < arr.length && col >= 0) {
             if (arr[row][col] == n) {
                 System.out.println("Found at " + row + ", " + col);
